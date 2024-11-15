@@ -1,0 +1,24 @@
+#container {
+    /* border: 1px solid green; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#containerNav {
+    /* border: 1px solid black; */
+    margin-top: 30px;
+}
+
+#containerNav button {
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#chosenComponent {
+    /* border: 1px solid blue; */
+    margin-top: 5%;
+}
