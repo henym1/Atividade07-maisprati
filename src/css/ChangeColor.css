@@ -22,6 +22,7 @@
     border-radius: 10px;
     background-color: #020202;
     color: #fff;
+    transition: background-color 0.3s ease;
 }
 
 #changeBgColorButton:hover {
