@@ -7,6 +7,7 @@ import ToDoList from "./ToDoList";
 import Stopwatch from "./Stopwatch";
 import Filter from "./Filter";
 import Form from "./Form";
+import Request from "./Request";
 
 
 function Container() {
@@ -26,6 +27,7 @@ function Container() {
                 <button onClick={() => showComponent('ex04')}>Exercício 04</button>
                 <button onClick={() => showComponent('ex05')}>Exercício 05</button>
                 <button onClick={() => showComponent('ex06')}>Exercício 06</button>
+                <button onClick={() => showComponent('ex07')}>Exercício 07</button>
 
             </nav>
 
@@ -36,6 +38,7 @@ function Container() {
                 {chosenComponent === 'ex04' && <Stopwatch />}
                 {chosenComponent === 'ex05' && <Filter />}
                 {chosenComponent === 'ex06' && <Form />}
+                {chosenComponent === 'ex07' && <Request />}
             </div>
         </div>
     )
