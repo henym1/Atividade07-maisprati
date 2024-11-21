@@ -8,7 +8,11 @@ import Stopwatch from "./Stopwatch";
 import Filter from "./Filter";
 import Form from "./Form";
 import Request from "./Request";
+import Gallery from "./Gallery";
+import Timer from "./Timer";
+import Tabs from "./Tabs";
 
+// "Container" usado para navegar entre as diferentes tarefas
 
 function Container() {
 
@@ -28,7 +32,9 @@ function Container() {
                 <button onClick={() => showComponent('ex05')}>Exercício 05</button>
                 <button onClick={() => showComponent('ex06')}>Exercício 06</button>
                 <button onClick={() => showComponent('ex07')}>Exercício 07</button>
-
+                <button onClick={() => showComponent('ex08')}>Exercício 08</button>
+                <button onClick={() => showComponent('ex09')}>Exercício 09</button>
+                <button onClick={() => showComponent('ex10')}>Exercício 10</button>
             </nav>
 
             <div id="chosenComponent">
@@ -39,6 +45,9 @@ function Container() {
                 {chosenComponent === 'ex05' && <Filter />}
                 {chosenComponent === 'ex06' && <Form />}
                 {chosenComponent === 'ex07' && <Request />}
+                {chosenComponent === 'ex08' && <Gallery />}
+                {chosenComponent === 'ex09' && <Timer />}
+                {chosenComponent === 'ex10' && <Tabs />}
             </div>
         </div>
     )

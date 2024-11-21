@@ -1,0 +1,44 @@
+#ex10 {
+    position: relative;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 600px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#ex10 h2 {
+    margin: 20px 0;
+}
+
+#ex10 p {
+    font-size: 1.1em;
+    line-height: 30px;
+}
+
+#ex10 button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2em;
+}
+
+#tabsContainer {
+    display: flex;
+    border-bottom: 2px solid #ccc;
+}
+
+.tab.active {
+    border-bottom: 2px solid #007bff!important;
+    font-weight: bold;
+}
+
+.tab:hover {
+    color: #007bff;
+}
+
+#activeTab {
+    margin: 10px 0px;
+}
