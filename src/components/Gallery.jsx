@@ -1,4 +1,10 @@
 import React, { useState } from "react";
+import Terraria1 from '../assets/Terraria1.jpg';
+import Terraria2 from '../assets/Terraria2.jpg';
+import Terraria3 from '../assets/Terraria3.jpg';
+import Terraria4 from '../assets/Terraria4.jpg';
+import Terraria5 from '../assets/Terraria5.jpg';
+import Terraria6 from '../assets/Terraria6.jpg';
 
 import "../css/Gallery.css"
 
@@ -7,12 +13,12 @@ import "../css/Gallery.css"
 function Gallery() {
 
     const images = [
-        { id: 1, src: "../src/assets/Terraria1.jpg", alt: 'Imagem 1' },
-        { id: 2, src: "../src/assets/Terraria2.jpg", alt: 'Imagem 2' },
-        { id: 3, src: "../src/assets/Terraria3.jpg", alt: 'Imagem 3' },
-        { id: 4, src: "../src/assets/Terraria4.jpg", alt: 'Imagem 4' },
-        { id: 5, src: "../src/assets/Terraria5.jpg", alt: 'Imagem 5' },
-        { id: 6, src: "../src/assets/Terraria6.jpg", alt: 'Imagem 6' },
+        { id: 1, src: Terraria1, alt: 'Imagem 1' },
+        { id: 2, src: Terraria2, alt: 'Imagem 2' },
+        { id: 3, src: Terraria3, alt: 'Imagem 3' },
+        { id: 4, src: Terraria4, alt: 'Imagem 4' },
+        { id: 5, src: Terraria5, alt: 'Imagem 5' },
+        { id: 6, src: Terraria6, alt: 'Imagem 6' },
     ]
 
     const [selectedImage, setSelectedImage] = useState(null)
